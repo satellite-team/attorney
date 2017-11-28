@@ -79,6 +79,7 @@ header{
 	padding: 10px 0;
 	border-top: #00c4ab 5px solid;
 	/* background: url(../img/bg_header.png) #e6e6e6; */
+	background-color:#228b22;
 	
 }
 
@@ -176,15 +177,15 @@ div#main_image{
 }
 #main_wrapper{
 	height:3250px;
-	background-color:gray;
+	background-color:#fffff0;
 
 }
 .main{
 	height:80vh;
-	background-color:gray;
+	
 	
 }
 #footer{
 	height:400px;
-	background-color:skyblue;
+	background-color:#228b22;
 }
