@@ -55,11 +55,7 @@ img, input, select, textarea {
 	vertical-align: middle;
 }
 
-a{
-	color: #59220d;
-	transition: 0.5s;
-	text-decoration: none;
-}
+
 a:hover{
 	color: #d53e04;
 }
@@ -77,17 +73,23 @@ header{
 }
 #header{
 	padding: 10px 0;
-	border-top: #00c4ab 5px solid;
+	/* border-top: #00c4ab 5px solid; */
 	/* background: url(../img/bg_header.png) #e6e6e6; */
-	background-color:#228b22;
+	background-color:white;
 	
 }
 
 #header .inner {
 	display: table;
 }
+#logo{
+	margin-left:30px;
+}
 
-
+a{
+	color: black;
+	text-decoration: none;
+}
 
 #catch{
 	
@@ -154,9 +156,9 @@ header{
 li.gnav08 a {
 	border-right:1px dotted black;
 }
-#gnav a:hover{
+/* #gnav a:hover{
 	background: #ecdfc2;
-}
+} */
 @media screen and (min-width: 640px){
 	#gnav{
 		margin-bottom: 20px;
@@ -179,19 +181,41 @@ div#menu_title{
 
 #side_menu{
 		float:left; 
-		background-color:#c0c0c0;
+		background-color: whitesmoke;
 		height:3250px;
+		width: 270px;
 } 
-#side_menu ul{
-	height:100%;
-}
-#menu li{
-	
-	margin-bottom:100px;
-	font-size: 15px;  
-	border-bottom:1px dotted black;
 
+#menu {
+	height:100%;
+	margin: 30px 20px 20px 20px;
 }
+
+.li_title{
+	font-size: 17px;
+	font-style: italic;
+	color: #00c4ab;
+	margin-top: 30px;
+}
+
+.inside_ul{
+	margin-top: 20px;
+}
+
+.li_title ul li{
+	color: black;
+	border-bottom: 1px dotted burlywood;
+	padding-bottom: 4px;
+	margin-bottom: 13px;
+	font-size: 0.8em;
+}
+
+
+/*        side_menu        */
+
+
+
+
 #main_wrapper{
 	height:3250px;
 	background-color:#fffff0;
