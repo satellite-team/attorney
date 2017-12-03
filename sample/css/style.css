@@ -174,7 +174,7 @@ div#main_image{
 div#menu_title{
 	width:100%;
 	height:200px;
-	
+
 }
 
 #side_menu{
@@ -197,6 +197,10 @@ div#menu_title{
 	background-color:#fffff0;
 
 }
+#main_content{
+	height:3250px
+}
+
 .main{
 	height:80vh;
 	
